@@ -1,0 +1,34 @@
+.genre-filter {
+  background-color: #ececec;
+  padding: 20px;
+  border-radius: 5px;
+  width: -webkit-fill-available;
+}
+
+.genre-filter button {
+  background-color: #afadad;
+  color: rgb(29, 29, 29);
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-weight: 700;
+}
+.genre-filter button.selected {
+  background-color: #4a535c;
+  color: #fff;
+}
+
+.genre-filter .reset-button {
+  background-color: #dda3a9;
+}
+
+.genre-filter button:hover {
+  background-color: #d5e0ec;
+}
+
+.genre-filter .reset-button:hover {
+  background-color: #ec5161;
+}

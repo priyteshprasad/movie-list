@@ -1,0 +1,41 @@
+.movie-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-table th,
+.movie-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.movie-table th {
+  background-color: #b6b4b4;
+  font-weight: bold;
+  color: #333;
+}
+
+.movie-table td {
+  color: #3d3d3d;
+  font-weight: 500;
+}
+
+.movie-table tr:hover {
+  background-color: #e3e3e3;
+  cursor: pointer;
+}
+
+.title-column {
+  width: 50%;
+}
+
+.genre-column {
+  width: 25%;
+}
+
+.year-column {
+  width: 25%;
+}
